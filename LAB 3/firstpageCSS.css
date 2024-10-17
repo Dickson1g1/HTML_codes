@@ -1,0 +1,39 @@
+body { 
+    background-image: url('images/blob-scene-haikei.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+} 
+
+header {
+    text-align: center;
+    background-color: #97BC62;
+    font-family: Georgia, serif; 
+    font-size: 24px; 
+    padding: 2px; 
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px; 
+    background-color: #97BC62; 
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 2px; 
+    text-align: center; 
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+td img {
+    max-width: 100%; 
+    height: auto; 
+}

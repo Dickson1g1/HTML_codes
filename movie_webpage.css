@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #555;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+movie{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);      
+}
+
+movie h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+synopsis p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+details {
+margin-top: 10px;
+}
+
+details p {
+margin: 5px 0;
+font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .movie {
+ padding: 10px;
+}
+    
+.movie h2 {
+ font-size: 20px;
+ }  
+
+.synopsis p, .details p {
+    font-size: 14px
+}
+    
+.trailer iframe {
+    width: 100%;
+    height: auto;
+ }
+}
+   
