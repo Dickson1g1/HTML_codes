@@ -1,0 +1,135 @@
+.title {
+    color: green;
+}
+
+body {
+    font-family:Calibri, sans-serif;
+    background-color: #30305c;
+    color: #8dff79;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #404040;
+    color: #8dff79;
+    padding: 1px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #404040;
+    color: #f0f0f4;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.box {
+    background-color:#9193b6;
+    border: 8px solid #565997;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.25);
+}
+
+.box h2 {
+    margin-top: 0;
+    color: #8dff79;
+    font-size: 32px;
+}
+
+.description p {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8dff79;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .video {
+        padding: 10px;
+    }
+    
+    .video h2 {
+        font-size: 20px;
+    }
+    
+    .description p, .details p{
+        font-size: 14px;
+    }
+    
+    .video iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+table, td {
+    font-family:Calibri, sans-serif;
+    color: #202020;
+    background-color:#e0e0e0;
+    font-size: 14px;
+    text-align:center;
+    font-weight: bold;
+    
+    border: 2px solid #202020;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+th {
+    color: #f0f0f0;
+    background-color: #7090e0;
+    text-align:center;
+    font-weight: bold;
+    
+    border: 2px solid #202020;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+}
+
+li a:link, li a:visited {
+    font-family:Calibri, sans-serif;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #505050;
+    width: 150px;
+    margin: -2px;
+}
+
+li:hover {
+    background-color: #5080f0;
+}

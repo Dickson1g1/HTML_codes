@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Showcase Forum</title>
+    <link rel="stylesheet" href="ForumPage.css">
+</head>
+<body>
+    <header>
+        <h1>Game Showcase Forum</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="post-form">
+            <h2>Post a Question or Tip</h2>
+            <form id="forumPostForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="topic">Topic:</label>
+                <input type="text" id="topic" name="topic" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="8" required></textarea>
+
+                <button type="submit">Post</button>
+            </form>
+        </section>
+
+        <section class="forum-posts">
+            <h2>Recent Posts</h2>
+            <div class="post">
+                <h3>How to level up quickly in Game X?</h3>
+                <p><strong>Posted by:</strong> Gamer123</p>
+                <p>I've found that completing side quests gives a lot of experience points. What are your tips?</p>
+            </div>
+            <div class="post">
+                <h3>Best strategies for winning in Game Y</h3>
+                <p><strong>Posted by:</strong> StrategyMaster</p>
+                <p>Using the right character combinations can make a huge difference. Let's discuss!</p>
+            </div>
+            <div class="post">
+                <h3>Game Z tips and tricks</h3>
+                <p><strong>Posted by:</strong> Tipster</p>
+                <p>Don't forget to check hidden areas for extra loot!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Game Showcase. All rights reserved.</p>
+    </footer>
+
+    <script src="ForumPage.js"></script>
+</body>
+</html>

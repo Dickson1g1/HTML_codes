@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals and the Sounds Humans Hear</title>
+    <link rel="stylesheet" href="firstpageCSS.css">
+    <script>
+       
+        function setBackgroundColor() {
+            const color = prompt("Please enter a background color name or hex code (e.g., #ff0000):");
+            document.body.style.backgroundColor = color;
+        }
+
+     
+        function showSound(animal) {
+            alert("The sound made by the " + animal + " is perceived as: Wof wof ");
+        }
+        
+        
+        function greetUser() {
+            const name = document.getElementById("nameInput").value;
+            alert("Hello, " + name + "!");
+        }
+
+        
+        function changeTextColor() {
+            const color = document.getElementById("colorInput").value;
+            document.getElementById("colorText").style.color = color;
+        }
+    </script>
+</head>
+<body onload="setBackgroundColor()">
+    <h1>Ten Animals and their Perceived Sounds</h1>
+    
+    <table>
+        <tr>
+            <th>Animal Images</th>
+            <th>Animal Sound</th>
+            <th>YouTube Video of Animal</th>
+        </tr>
+        <tr>
+            <td><img src="Images/dog.jpg" alt="Dog" width="100" height="100"></td>
+            <td><button onclick="showSound('Dog')">Dog Sound</button></td>
+            <td><iframe width="500" height="100" src="https://www.youtube.com/embed/wE1waYBYIhY?si=J7cNatLowQS0WkrV" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/cat.jpg" alt="Cat" width="100" height="100"></td>
+            <td><button onclick="showSound('Cat')">Cat Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/5P6JohWZFQY?si=4KbiGHYxTemmUlMl" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Chicken.jpg" alt="Chicken" width="100" height="100"></td>
+            <td><button onclick="showSound('Chicken')">Chicken Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/wYKJkHcaMzE?si=QU2eI4s4J9MKTJ-N" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Bee.jpg" alt="Bee" width="100" height="100"></td>
+            <td><button onclick="showSound('Bee')">Bee Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/HdBkgBSjFXM?si=PAzc8eGUSEEThXus" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Bird.jpg" alt="Bird" width="100" height="100"></td>
+            <td><button onclick="showSound('Bird')">Bird Sound</button></td>
+            <td><iframe width="512" height="200" src="https://www.youtube.com/embed/jF0Id-hH9y4?si=LfRruE6jsFKWub73" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Sheep.jpg" alt="Sheep" width="100" height="100"></td>
+            <td><button onclick="showSound('Sheep')">Sheep Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/dYXsN6b3C9A?si=f2WKFOZprm5r3KAH" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Horse.jpg" alt="Horse" width="100" height="100"></td>
+            <td><button onclick="showSound('Horse')">Horse Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/F6XQNdBYgNg?si=R1ffaZbEU4iULg1I" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Mouse.jpg" alt="Mouse" width="100" height="100"></td>
+            <td><button onclick="showSound('Mouse')">Mouse Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/9saKA9_QIY0?si=iJd_M2rOQ03QYL_l" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td><img src="images/Elephant.jpg" alt="Elephant" width="100" height="100"></td>
+            <td><button onclick="showSound('Elephant')">Elephant Sound</button></td>
+            <td><iframe width="500" height="200" src="https://www.youtube.com/embed/LpzwxDqVDtc?si=0vKRUeqZ6YrkLAFJ" title="YouTube video player" iframeborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+
+    <div>
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput">
+        <button onclick="greetUser()">Greet Me</button>
+    </div>
+
+    <div>
+        <label for="colorInput">Enter a color:</label>
+        <input type="text" id="colorInput">
+        <button onclick="changeTextColor()">Change Text Color</button>
+    </div>
+
+    <p id="colorText">This text will change color based on the color you put in.</p>
+</body>
+</html>

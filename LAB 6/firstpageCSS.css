@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Change to your preferred color */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Change to your preferred color */
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f2f2f2; /* Change to your preferred color */
+}
+
+td {
+    text-align: center;
+}

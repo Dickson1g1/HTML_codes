@@ -1,0 +1,25 @@
+body {
+    font-family: Century, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: blue;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+th {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    background-color: #5ae6cf; 
+}
